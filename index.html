@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuberculose - Informações Médicas</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <header>
+        <h1>Informações sobre Tuberculose</h1>
+        <nav>
+            <ul>
+                <li><li><a href="https://www.rededorsaoluiz.com.br/doencas/tuberculose" target="_blank">O que é</a></li>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#sintomas">Sintomas</a></li>
+                <li><a href="#tratamento">Tratamento</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="o-que-e">
+        <h2>O que é Tuberculose?</h2>
+        <p>A tuberculose (TB) é uma doença infecciosa causada pela bactéria<i>Mycobacterium tuberculosis</i>, que afeta principalmente os pulmões, mas também pode atingir outras partes do corpo.</p>
+    </section>
+
+    <section id="causas">
+        <h2>Causas da Tuberculose</h2>
+        <p>A tuberculose é uma doença de transmissão aérea e se instala a partir da inalação de aerossóis oriundos das vias aéreas,
+          durante a fala, espirro ou tosse das pessoas com tuberculose ativa (pulmonar ou laríngea), que lançam no ar partículas
+         em forma de aerossóis contendo bacilos.</p>
+    </section>
+
+    <section id="sintomas">
+        <h2>Sintomas da Tuberculose</h2>
+        <ul>
+            <li>Tosse persistente por mais de três semanas</li>
+            <li>Dor no peito</li>
+            <li>Perda de peso inexplicada</li>
+            <li>Febre e suor noturno</li>
+        </ul>
+    </section>
+
+    <section id="tratamento">
+        <h2>Tratamento</h2>
+        <p>O tratamento para tuberculose é feito com um conjunto de antibióticos durante um período de seis a nove meses, dependendo da gravidade da infecção.</p>
+        <button id="more-info-btn">Mais informações</button>
+    </section>
+
+    <section id="duvidas">
+        <h2>Dúvidas sobre Tuberculose ? </h2>
+        <button id="duvida-btn">Tem dúvidas? Clique aqui</button>
+        
+    </section>
+
+        <!-- Caixa de texto para perguntas -->
+
+        <div id="duvida-box" style="display:none;">
+            <form id="contact-form"></form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+            <label for="duvida">Escreva sua dúvida:</label>
+            <textarea id="duvida" rows="4" cols="50"></textarea>
+            <button id="enviar-duvida">Enviar</button>
+            <p id="duvida-enviada" style="display:none; color: green;">Sua dúvida foi enviada com sucesso!</p>
+            
+            
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>© 2024 Informações Médicas sobre Tuberculose</p>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
